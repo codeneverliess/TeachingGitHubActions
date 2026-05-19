@@ -1,0 +1,10 @@
+name: Hello World First Program
+
+on:
+  workflow_dispatch:
+
+jobs:
+  inline-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!"
